@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Misty Mountain Farms</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Misty Mountain Farms</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="MMFPictures.html">Pictures</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Fresh, Local, and Sustainable</h2>
+        <p>Join us every Saturday for the freshest produce and artisanal products.</p>
+    </section>
+
+    <section id="about">
+        <div class="about-container">
+            <div class="about-text">
+                <h2>About Us</h2>
+                <p>Welcome to our website! Founded in 2010 by Lori and Dale, we have wokred hard to bring your products
+                from our farm. Here you can get a brief overview of what we have along with an area to send us messages!</p>
+            </div>
+            <div class="about-logo">
+                <img src="images/logo.png" alt="Misty Mountain Farmers Market Logo">
+            </div>
+        </div>
+    </section>
+
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product">
+            <section id="produce">
+                <h2>Produce</h2>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <img src="images/apple.jpg" alt="Fresh Apples">
+                        <p>Fresh Apples - $2/lb</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="images/carrots.jpg" alt="Organic Carrots">
+                        <p>Organic Carrots - $1.50/lb</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="images/lettuce.jpg" alt="Organic Lettuce">
+                        <p>Organic Lettuce - $1.75/head</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="images/garlic.jpg" alt="Organic Garlic">
+                        <p>Organic Garlic - $3/clove</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="images/tomato.jpg" alt="Organic Tomatoes">
+                        <p>Organic Tomatoes - 4$/lb</p>
+                    </div>
+                </div>
+            </section>
+            <section id="produce">
+                <h2>Meats</h2>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <img src="images/beef.jpg" alt="Beef">
+                        <p>Beef - $5/lb</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="images/pork.jpg" alt="Pork">
+                        <p>Pork - $4.50/lb</p>
+                    </div>
+                </div>
+            </section>
+            <section id="produce">
+                <h2>Other</h2>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <img src="images/eggs.jpg" alt="Free-Range Eggs">
+                        <p>Free-Range Eggs - $4/dozen</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="images/jam.jpg" alt="Homemade Jam">
+                        <p>Homemade Jam - $5/jar</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="images/milk.jpg" alt="Milk">
+                        <p>Milk - $2/gallon</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="images/honey.jpg" alt="Honey">
+                        <p>Honey - $10/jar</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+            <!-- this doesnt actually work -->
+        </form>
+    </section>
+    <br /> <br /> <br /> <br />
+    <footer>
+        <p>&copy; 2024 Misty Mountain Farms. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+
